@@ -1,3 +1,5 @@
+import importlib
+
 print("Bye world Cup")
 # This is the main program for the repository.
 # It serves as the entry point for the repository's main functionality.
@@ -12,6 +14,9 @@ if __name__ == "__main__":
     test2.main()  
     import test3
     test3.run()
-    import test4
-    test4.run()
-    
+    try:
+        test4 = importlib.import_module("test4")
+        test4.run()
+    except ModuleNotFoundError:
+        pass
+
