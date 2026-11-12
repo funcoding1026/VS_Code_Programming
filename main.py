@@ -12,3 +12,6 @@ if __name__ == "__main__":
     test2.main()  
     import test3
     test3.run()
+    import test4
+    test4.run()
+    
