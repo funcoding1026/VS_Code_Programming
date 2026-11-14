@@ -1,0 +1,18 @@
+import sys
+print(sys.version)
+print(sys.platform)
+print(sys.executable)
+print(sys.path)
+print(sys.argv)
+print(sys.maxsize)
+print(sys.getrecursionlimit())
+print(sys.float_info)
+print(sys.int_info)
+print(sys.api_version)
+print(sys.implementation)
+print(sys.flags)
+print(sys.modules)
+print(sys.builtin_module_names)
+print(sys.cached)
+print(sys.path_importer_cache)
+
